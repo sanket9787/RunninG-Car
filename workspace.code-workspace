@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Meditation app"
+		},
+		{
+			"path": "../../Downloads/meditation-app-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "meditation-app-master"
+	}
+}

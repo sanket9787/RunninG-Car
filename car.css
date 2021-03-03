@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+overflow: hidden;
+
+
+
+}
+h2{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+   padding-left: 20px;
+   color: rgba(249, 248, 170, 1);
+   padding-top: 5px;
+}
+.text{
+
+   color: rgb(231, 231, 195);
+   margin-left: 50px;
+   margin-top: 50px;
+  text-size-adjust: 200px;
+  
+
+}
+.second{
+    margin-left: 10px;
+}
+.night{
+  
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid black;
+    margin: 5rem auto;
+    background: url('./assets/Img_1.png');
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px ;
+    overflow: hidden;
+    margin-top: 47px;
+    
+}
+.surface{
+    height: 140px;
+    width: 500%;
+    background: url(./assets/Img_02.png);
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-repeat: repeat-x;
+   
+}
+.car{
+    position: absolute;
+    bottom: 6.8%;
+    left: 24%;
+    
+
+}
+
+@keyframes moveRight{
+    100%{transform: translateX(-2950px);}
+}
+@keyframes suspenstion{
+    100%{
+        transform: translateY(-1px);
+
+    }
+    50%{
+        transform: translateY(2px);
+        
+    }
+    0%{
+        transform: translateY(-1px); 
+    }
+}
+
+.moveright{
+    animation: moveRight 6s linear infinite;
+}
+.suspenstion{
+    animation: suspenstion 1s linear infinite;
+}
